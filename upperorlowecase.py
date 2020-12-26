@@ -4,10 +4,8 @@ lower=[]
 for i in word:
     if i.isupper():
         upper.append(i)
-    elif i.islower():
-        lower.append(i)
     else:
-        pass
+        lower.append(i)
 for i in upper:
     print(i)
 print('number of upper case words: ',len(upper))
